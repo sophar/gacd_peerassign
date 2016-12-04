@@ -1,0 +1,49 @@
+CODEBOOK Human Activity Recognition Using Smartphones
+
+subjID
+	Subject ID
+		1...30 Unique identifier of subjects
+		
+activity
+	Type of activity
+		1 WALKING
+		2 WALKING_UPSTAIRS
+		3 WALKING_DOWNSTAIRS
+		4 SITTING
+		5 STANDING
+		6 LAYING
+		
+feature
+	24 different types of measurement
+		fBodyAcc.X
+		fBodyAcc.Y
+		fBodyAcc.Z
+		fBodyAccJerk.X
+		fBodyAccJerk.Y
+		fBodyAccJerk.Z
+		fBodyGyro.X
+		fBodyGyro.Y
+		fBodyGyro.Z    
+		tBodyAcc.X
+		tBodyAcc.Y
+		tBodyAcc.Z
+		tBodyAccJerk.X
+		tBodyAccJerk.Y
+		tBodyAccJerk.Z
+		tBodyGyro.X
+		tBodyGyro.Y
+		tBodyGyro.Z    
+		tBodyGyroJerk.X
+		tBodyGyroJerk.Y
+		tBodyGyroJerk.Z
+		tGravityAcc.X
+		tGravityAcc.Y
+		tGravityAcc.Z
+		
+mean
+	mean of measurements (numerical)
+		-1..+1
+		
+std
+	standard deviation of measurements (numerical)
+		-1..+1
